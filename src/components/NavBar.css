@@ -1,0 +1,21 @@
+/* Custom styles for the navbar dropdown */
+.navbar .nav-link {
+    color: rgb(0, 0, 0) !important;
+  }
+  
+   .navbar {
+    background-color: #8badcf !important;/* Different blue color for navbar */
+     /* Align next to sidebar */
+    width: calc(100%);
+    /* Adjust for sidebar width */
+  }
+  
+  .dropdown-menu-left .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+  
+  .dropdown-menu-left .dropdown-item {
+    color: black !important;
+  }
+  

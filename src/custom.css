@@ -1,0 +1,84 @@
+
+
+body {
+  
+    background-color: #f8f9faae;
+    height: 100%;
+    margin: 0;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  #wrapper {
+    
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  #sidebar-wrapper {
+    border-end-end-radius: 15%;
+    box-shadow: #686b6d;
+    
+    width: 200px;
+    background-color: #bcc7d2; /* Blue color for sidebar */
+    color: #fff;
+    flex-shrink: 0;
+    height: 100%;
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+    
+    padding: 0.6rem;
+    font-size: 1.5rem;
+    background-color: #37506b; /* Darker blue for sidebar heading */
+  }
+  
+  #sidebar-wrapper .list-group-item {
+    background-color: #bcc7d2;
+    color: #ffffff;
+    border: none;
+    
+  }
+  
+  #sidebar-wrapper .list-group-item:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  #page-content-wrapper {
+    flex-grow: 1;
+    width: calc(100% - 250px); /* Adjust for sidebar width */
+    padding: 0; /* Remove padding */
+  }
+  
+  .navbar {
+    background-color: #8badcf !important;/* Different blue color for navbar */
+     /* Align next to sidebar */
+    width: calc(100%);
+    /* Adjust for sidebar width */
+  }
+  
+  .navbar .navbar-brand,
+  .navbar .nav-link,
+  .navbar .dropdown-item {
+    color: #fff;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .dropdown-item:hover {
+    color: #000;
+  }
+  
+  .table {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .table thead {
+    background-color: #ff007b;
+    color: #fff;
+  }
+  

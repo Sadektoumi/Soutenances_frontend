@@ -1,0 +1,19 @@
+/* Custom styles for the Salles page */
+
+.action-column {
+    width: 120px;
+    text-align: center;
+  }
+  
+  .search-bar {
+    width: 100px;
+  }
+  
+  .btn-sm .svg-inline--fa {
+    font-size: 0.8rem;
+  }
+  
+  .pagination {
+    margin: 0;
+  }
+  

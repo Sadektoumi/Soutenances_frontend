@@ -1,0 +1,46 @@
+/* Change the navbar background color to blue */
+.navbar {
+    background-color: #37506b !important;
+    
+  }
+  .navbar .nav-link {
+    color: rgb(234, 227, 227) !important;
+  }
+
+  .mobile-interface {
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Additional styles to make the interface more mobile-friendly */
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+  
+  .card-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+  /* Ensure the grid columns are equal in size to the mobile interface */
+  .mobile-interface-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .mobile-interface-grid .col-sm-12 {
+    max-width: 100%;
+  }
+  
